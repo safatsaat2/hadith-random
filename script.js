@@ -109,7 +109,7 @@ function hadithItems(ayat) {
 
 document.getElementById('btn').addEventListener('click', function () {
     const p = document.createElement('p');
-    p.className = 'pb-5 pt-5'
+    p.className = 'pb-10 pt-5 border px-5'
     p.innerText = hadithItems(quran);
     const div = document.getElementById('ayat-container');
     div.appendChild(p);
